@@ -8,10 +8,19 @@ body {
   text-align: center;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: inherit;
   width: 100%;
+  font-size: .8em;
+}
+
+@media(min-width: 780px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1em;
+  }
 }
 h1 {
   font-weight: 800;
@@ -20,7 +29,11 @@ h1 {
 a, .highlight {
   color: #72109C;
 }
-
 a:hover {
   color: #00000D;
+}
+@media(max-width: 780px) {
+  img {
+    width: 98%;
+  }
 }
