@@ -1,15 +1,26 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: #00000D;
 }
-.pickle, .footer {
+.pickle, .center, .footer {
   margin: auto;
   text-align: center;
 }
 .footer {
-  margin-top: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 h1 {
   font-weight: 800;
   font-size: 4em;
+}
+a, .highlight {
+  color: #72109C;
+}
+
+a:hover {
+  color: #00000D;
 }
