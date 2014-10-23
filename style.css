@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.pickle, .footer {
+  margin: auto;
+  text-align: center;
+}
+.footer {
+  margin-top: 10%;
+}
+h1 {
+  font-weight: 800;
+  font-size: 4em;
+}
